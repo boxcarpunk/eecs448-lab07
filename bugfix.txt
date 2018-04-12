@@ -1,0 +1,7 @@
+isEmpty always returns true.
+
+removeFront and removeBack never try to remove any values, they always return false.
+This means that they always think the list is empty which is most likely due to isEmpty not working.
+They probably test whether the list is empty using isEmpty before trying to remove any items.
+
+addBack does not add to the back of the list, it adds to the front of the list.
